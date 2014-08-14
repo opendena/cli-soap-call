@@ -18,8 +18,12 @@ delete argv.url
 var wsdl_url = url  + '?wsdl';
 
 soap.createClient(wsdl_url, function(err, client) {
-       client[funcName](argv, function(err, result) {
-				   if ( err ) process.stderr.write(err);
+			 if ( err ) {
+				 process.stderr.write(err);
+				 return false;
+			 }
+			 client[funcName](argv, function(err, result) {
+					 if ( err ) process.stderr.write(err);
            process.stdout.write(JSON.stringify(result));   
 			 });
 });
