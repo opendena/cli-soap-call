@@ -1,6 +1,6 @@
 {
-  "name": "cliSoapCall",
-  "version": "0.0.0",
+  "name": "cli-soap-call",
+  "version": "0.0.1",
   "description": "nodejs commandline tool to make call soap and got result",
   "main": "index.js",
   "scripts": {
