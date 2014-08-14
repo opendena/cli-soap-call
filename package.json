@@ -4,14 +4,17 @@
   "description": "nodejs commandline tool to make call soap and got result",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --colors -R spec"
   },
   "author": "RegisM",
   "license": "BSD-2-Clause",
   "dependencies": {
     "soap": "~0.5.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "sinon": "^1.10.3"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/opendena/cli-soap-call.git"
