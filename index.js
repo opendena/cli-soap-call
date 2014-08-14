@@ -1,4 +1,3 @@
-var ws = require(__dirname + "/ws.js");
 var argv = require(__dirname + "/clitool.js");
 var soap = require('soap');
 
