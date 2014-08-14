@@ -6,9 +6,23 @@
   "scripts": {
     "test": "npm test"
   },
-  "author": "",
+  "author": "RegisM",
   "license": "BSD-2-Clause",
   "dependencies": {
     "soap": "~0.5.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opendena/cli-soap-call.git"
+  },
+  "keywords": [
+    "cli",
+    "soap",
+    "json"
+  ],
+  "bugs": {
+    "url": "https://github.com/opendena/cli-soap-call/issues"
+  },
+  "homepage": "https://github.com/opendena/cli-soap-call"
 }
